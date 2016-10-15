@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Edit_Mensaje SYSTEM "Edit_Mensaje.dtd">
+ <!-- Este comentario 
+      no se visualiza 
+      en el arbol -->
+<Edit_Mensaje>
+     <Mensaje prioridad="urgente">
+          <Remitente>
+               <Nombre>Alfredo Reino</Nombre>
+               <Mail>alf@ibium.com</Mail>
+          </Remitente>
+          <Destinatario id="101" sexo="hombre">
+               <Nombre>Bill Clinton</Nombre>
+               <Mail>president@whitehouse.gov</Mail>
+	       <Mail>president@blackhouse.gov</Mail>
+          </Destinatario>
+          <!-- Texto del mensaje -->
+          <Texto idioma="es">
+               <Asunto>Hola Bill</Asunto>
+               <Parrafo>
+                   Hola que tal? Hace mucho que no escribes. A ver si llamas y quedamos para tomar algo.                   
+               </Parrafo>
+          </Texto>
+     </Mensaje>
+</Edit_Mensaje>

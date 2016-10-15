@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+ <!-- Este comentario 
+      no se visualiza 
+      en el arbol -->
+<menu>
+    <value id="1">
+        <titolo>Home Page</titolo>
+	<string id="9015" value="Free"/>
+	<string id="9016" value="Tentative"/>
+
+        <testo>Volver a la pagina principal de Escribiendo XML</testo>
+        <url>default.htm</url>
+    </value>
+
+    <value id="2">
+        <titolo>Ejemplos XML</titolo>
+        <testo>Los ejemplos que utilizamos en el curso</testo>
+        <url>ejemplos.htm</url>
+    </value> 
+</menu>  
+ <!-- Fin del menu -->

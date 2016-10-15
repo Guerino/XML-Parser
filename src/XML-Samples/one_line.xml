@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited by XMLSpy -->
+<CATALOG>
+	<string id="9013" value="From"/>
+	<libro>
+		<string id="9014" value="Ocupado"/>
+		<cliente>Roberto Moralez</cliente>
+	</libro>
+	<string id="9015" value="Free"/>
+	<string id="9016" value="Tentative"/>
+	<string id="9017" value="Busy"/>
+	<string id="9019" value="First"/>
+	<string id="9020" value="Second"/>
+	<string id="9021" value="Third"/>
+	<string id="9022" value="Fourth"/>
+	<string id="9023" value="Last"/>	
+</CATALOG>

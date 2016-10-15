@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!-- Este es el DTD de Edit_Mensaje -->
+<!ELEMENT Edit_Mensaje (Mensaje+)>
+<!ELEMENT Mensaje (Remitente, Destinatario+, Texto?)>
+<!ELEMENT Remitente (Nombre, Mail)>
+<!ELEMENT Destinatario (Nombre, Mail+)>
+<!ELEMENT Texto (Asunto, Parrafo)>
+
+<!ATTLIST Mensaje prioridad (normal | urgente) normal>
+<!ATTLIST Destinatario id ID #REQUIRED>
+<!ATTLIST Destinatario sexo (hombre | mujer | dudoso) hombre>
+<!ATTLIST Texto idioma CDATA #REQUIRED>
+
+<!ELEMENT Mail (#PCDATA)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Asunto (#PCDATA)>
+<!ELEMENT Parrafo (#PCDATA)>
